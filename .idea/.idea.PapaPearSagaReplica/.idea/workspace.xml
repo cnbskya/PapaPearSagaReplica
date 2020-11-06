@@ -22,12 +22,11 @@
     <list default="true" id="978c4958-edac-4f40-9e37-9384f1854e61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PapaPearSagaReplica/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PapaPearSagaReplica/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PapaPearSagaReplica/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PapaPearSagaReplica/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ball.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ball.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ball.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BoilerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BoilerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +47,11 @@
       <list>
         <option value="$PROJECT_DIR$/../../MyUnityProject/ReplicaDxBalls/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BoilerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Trejectory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BoilerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/DoTweenAnim.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DoTweenAnim.cs" />
       </list>
     </option>
   </component>
@@ -94,6 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604578570799</updated>
       <workItem from="1604578577179" duration="10388000" />
+      <workItem from="1604685601297" duration="804000" />
     </task>
     <servers />
   </component>
@@ -107,5 +110,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1604684727142">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.4.1920.1040@0.0.1920.1040" timestamp="1604684727142" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604684745845">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.4.1920.1040@0.0.1920.1040" timestamp="1604684745845" />
   </component>
 </project>

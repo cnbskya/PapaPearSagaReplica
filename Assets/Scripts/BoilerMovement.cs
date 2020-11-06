@@ -25,7 +25,7 @@ public class BoilerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(0) && GameManager.instance.isGameOn)
+        if (Input.GetMouseButton(0) )
         {
             target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             transform.LookAt(target, transform.up);
