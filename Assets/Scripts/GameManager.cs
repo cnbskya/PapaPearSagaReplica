@@ -5,22 +5,27 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public BoilerMovement boilerMovement;
     public static GameManager instance;
     public bool isGameOn;
-
+    public Trejectory trejectory;
     private void Awake()
     {
         instance = this;
     }
 
-    void Start()
+    public void OnDrag()
     {
-        
+        trejectory.UpdateDots(boilerMovement.pos, boilerMovement.force);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnDragStart()
     {
-        
+        trejectory.Show();
+    }
+
+    public void OnDragEnd()
+    {
+        trejectory.Hide();
     }
 }

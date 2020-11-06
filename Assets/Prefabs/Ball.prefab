@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5401147265018097876}
   - component: {fileID: 5401147265018097879}
   - component: {fileID: 5401147265018097878}
-  - component: {fileID: 60661999605870985}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -73,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 4
   m_Sprite: {fileID: -852358415481456786, guid: 80279377acc7069419ccfe98ea7542b2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -122,15 +121,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.56
---- !u!114 &60661999605870985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5401147265018097961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46e4f48c8b2defc48ab4220206148a2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
