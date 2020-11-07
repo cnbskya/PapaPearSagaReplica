@@ -5,11 +5,17 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    
     public BoilerMovement boilerMovement;
     public static GameManager instance;
     public bool isGameOn;
     public Trejectory trejectory;
     private void Awake()
+    {
+        instance = this;
+    }
+
+    private void Start()
     {
         instance = this;
     }
@@ -28,4 +34,7 @@ public class GameManager : MonoBehaviour
     {
         trejectory.Hide();
     }
+
+    
+    
 }

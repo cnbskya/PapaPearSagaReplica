@@ -16,7 +16,6 @@ public class Ball : MonoBehaviour
     {
         
     }
-
     private void OnCollisionEnter2D(Collision2D other)
     {
         // YEŞİL KAZANA GİRİNCE OLACAKLAR
@@ -47,11 +46,15 @@ public class Ball : MonoBehaviour
         else if (other.gameObject.CompareTag("Carrot"))
         {
             Destroy(other.gameObject);
+            AudioManager.instance.PlayCarrotObstacleSound();
         }
         else if (other.gameObject.CompareTag("Hazelnut"))
         {
             Destroy(other.gameObject);
-            // FindObjectOfType<BoilerMovement>().
+            AudioManager.instance.PlayHazelObstacleSound();
+        }else if (other.gameObject.CompareTag("CircleCol"))
+        {
+            AudioManager.instance.PlayCircleColObstacleSound();
         }
     }
 }
