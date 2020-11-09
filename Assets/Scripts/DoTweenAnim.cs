@@ -1,12 +1,15 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 using DG.Tweening;
+using UnityEngine.UI;
 
 public class DoTweenAnim : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public static int localScore = 100;
+    public GameObject floatingTextPrefab;
     void Start()
     {
         StartTweenAnimation();
@@ -29,5 +32,26 @@ public class DoTweenAnim : MonoBehaviour
             transform.localScale = Vector3.zero;
             transform.DOScale(new Vector3(1f, 1f, 1f), UnityEngine.Random.Range(0f, 0.5f)).SetDelay(UnityEngine.Random.Range(0f, .5f));
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Ball"))
+        {
+            UpdateScore();
+            ShowFloatingText();
+            
+        }
+    }
+
+    void UpdateScore()
+    {
+        localScore += 20;
+    }
+    void ShowFloatingText()
+    {
+        GameObject TM = Instantiate(floatingTextPrefab, transform.position, Quaternion.identity);
+        TM.GetComponent<TextMesh>().text = localScore.ToString(); 
+
     }
 }

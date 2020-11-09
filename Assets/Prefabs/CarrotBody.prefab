@@ -122,3 +122,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 005a932efd438a544867ea550f46be07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  floatingTextPrefab: {fileID: 1179195764570998647, guid: da871cd0ffca3c14290468d198e45656, type: 3}
+  localScoreText: {fileID: 6950100613156355990, guid: 0c4c874c4b5eb68409ffc74e353c7933, type: 3}

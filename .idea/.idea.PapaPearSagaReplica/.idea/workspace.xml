@@ -24,10 +24,20 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PapaPearSagaReplica/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PapaPearSagaReplica/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PapaPearSagaReplica/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PapaPearSagaReplica/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets/Main Sprites.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Main Sprites.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Boıunces.physicsMaterial2D" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Boıunces.physicsMaterial2D" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AudioManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AudioManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hole.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hole.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CarrotBody.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CarrotBody.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CarrotEnd (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CarrotEnd (1).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CarrotHead.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CarrotHead.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hazelnut.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Hazelnut.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/InclinedCarrot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/InclinedCarrot.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ball.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DoTweenAnim.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DoTweenAnim.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DoTweenAnim.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DoTweenAnim.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +51,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../MyUnityProject/ReplicaDxBalls/Assets/Scripts/BallMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../MyUnityProject/ReplicaDxBalls/Assets/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Hole.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../MyUnityProject/FlapyBirdReplica/Assets/Scripts/CloudController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../MyUnityProject/ReplicaDxBalls/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Trejectory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../DXBall-Replica/Assets/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -53,11 +63,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Trejectory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BoilerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/DoTweenAnim.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DoTweenAnim.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Hole.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
         <option value="$PROJECT_DIR$/Assets/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DoTweenAnim.cs" />
+        <option value="$PROJECT_DIR$/Assets/FloatingText.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CloudController.cs" />
       </list>
     </option>
   </component>
@@ -83,10 +95,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="25200">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="25200" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -104,6 +116,8 @@
       <workItem from="1604578577179" duration="10388000" />
       <workItem from="1604685601297" duration="806000" />
       <workItem from="1604755393458" duration="5356000" />
+      <workItem from="1604853666876" duration="1637000" />
+      <workItem from="1604908211117" duration="5104000" />
     </task>
     <servers />
   </component>
@@ -136,5 +150,24 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.4.1920.1040@0.0.1920.1040" timestamp="1604684745845" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/DoTweenAnim.cs</url>
+          <line>50</line>
+          <properties documentPath="C:\GITHUB\PapaPearSagaReplica\Assets\Scripts\DoTweenAnim.cs" initialLine="50">
+            <startOffsets>
+              <option value="1224" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1306" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

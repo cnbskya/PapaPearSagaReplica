@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5674131389624852713}
   - component: {fileID: 5350945605166160039}
   - component: {fileID: 5934055643972673121}
+  - component: {fileID: -1121168940389780636}
   m_Layer: 0
   m_Name: InclinedCarrot
   m_TagString: Carrot
@@ -135,3 +136,17 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &-1121168940389780636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8472430971325508702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 005a932efd438a544867ea550f46be07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floatingTextPrefab: {fileID: 1179195764570998647, guid: da871cd0ffca3c14290468d198e45656, type: 3}
+  localScoreText: {fileID: 6950100613156355990, guid: 0c4c874c4b5eb68409ffc74e353c7933, type: 3}
