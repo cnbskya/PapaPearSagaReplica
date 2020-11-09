@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8976800446362389650}
   - component: {fileID: -7868164234152751931}
   - component: {fileID: 4812674351014352227}
+  - component: {fileID: -6075955427694452536}
   m_Layer: 0
   m_Name: FloatingText
   m_TagString: Untagged
@@ -90,13 +91,13 @@ TextMesh:
   m_Anchor: 4
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 16
+  m_FontSize: 18
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 12800000, guid: 1ed6a4ec1e75f934981d8ecc1a96537b, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4280418559
+    rgba: 4278254847
 --- !u!114 &-7868164234152751931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,3 +130,14 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!210 &-6075955427694452536
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179195764570998647}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 10

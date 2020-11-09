@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 5
   m_Sprite: {fileID: 1181430732321448386, guid: 80279377acc7069419ccfe98ea7542b2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -113,4 +113,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floatingTextPrefab: {fileID: 1179195764570998647, guid: da871cd0ffca3c14290468d198e45656, type: 3}
-  localScoreText: {fileID: 6950100613156355990, guid: 0c4c874c4b5eb68409ffc74e353c7933, type: 3}
