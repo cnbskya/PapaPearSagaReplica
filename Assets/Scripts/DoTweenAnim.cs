@@ -8,8 +8,8 @@ using UnityEngine.UI;
 
 public class DoTweenAnim : MonoBehaviour
 {
-    public static int localScore = 100;
-    public GameObject floatingTextPrefab;
+    
+    
     void Start()
     {
         StartTweenAnimation();
@@ -34,24 +34,6 @@ public class DoTweenAnim : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Ball"))
-        {
-            UpdateScore();
-            ShowFloatingText();
-            UIManager.instance.UpdateScore(GameManager.instance.globalScore);
-        }
-    }
-    void UpdateScore()
-    {
-        localScore += 20;
-        GameManager.instance.globalScore += localScore;
-    }
-    void ShowFloatingText()
-    {
-        GameObject go = Instantiate(floatingTextPrefab, transform.position, Quaternion.identity);
-        go.GetComponent<TextMesh>().text = localScore.ToString();
-    }
+    
     
 }
