@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    
+    public int globalScore;
     public BoilerMovement boilerMovement;
     public static GameManager instance;
     public bool isGameOn;

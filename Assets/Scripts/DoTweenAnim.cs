@@ -40,18 +40,18 @@ public class DoTweenAnim : MonoBehaviour
         {
             UpdateScore();
             ShowFloatingText();
-            
+            UIManager.instance.UpdateScore(GameManager.instance.globalScore);
         }
     }
-
     void UpdateScore()
     {
         localScore += 20;
+        GameManager.instance.globalScore += localScore;
     }
     void ShowFloatingText()
     {
-        GameObject TM = Instantiate(floatingTextPrefab, transform.position, Quaternion.identity);
-        TM.GetComponent<TextMesh>().text = localScore.ToString(); 
-
+        GameObject go = Instantiate(floatingTextPrefab, transform.position, Quaternion.identity);
+        go.GetComponent<TextMesh>().text = localScore.ToString();
     }
+    
 }
